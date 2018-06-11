@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { ChatboxComponent } from './chatbox/chatbox.component';
+import { DebateMenuComponent } from './debate-menu/debate-menu.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ChatboxComponent
+    ChatboxComponent,
+    DebateMenuComponent
   ],
   imports: [
     FormsModule,
